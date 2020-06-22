@@ -1,23 +1,10 @@
-<html>
-<head>
-<title>mebel.ru</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css"href="style.css">
-</head>
-<body>
-	<div class="blok-menu">
-		<ul class="menu">
-			<li><div class="logo">
-				<img src="img/logo5.png">
-				
-			</div></li>
-			<li><a href="/index">Главная</a></li>
-			<li><a href="/yslugi">Каталог</a></li>
-			<li><a href="/contakt">Контакты</a></li>
-			<li><a href="/onas">Адрес</a></li>
-		</ul>
-	</div>
-</div>
+@extends('layouts.header')
+
+@section('title')
+	<title>Каталог</title>
+@endsection('')
+
+@section('content')
 
 <div class="product-item">
   <img src="img/кровать.jpg">
@@ -67,7 +54,6 @@
       <a href="/contakt" class="button">Заказать</a>
   </div>
 </div>
+@endsection('')
 	
 	
-</body>
-</html>
